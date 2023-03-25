@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txvTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negativos, positivos, multiplos y pares"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edtN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el primer numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el segundo numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el tercer numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el cuarto numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el quinto numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el sexto numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el septimo numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el octavo numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el noveno numero"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtN10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Digite el decimo numero"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CALCULAR" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="399dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="148dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/txvNegativos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txvPositivos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txvMultiplos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txvAcumulado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
