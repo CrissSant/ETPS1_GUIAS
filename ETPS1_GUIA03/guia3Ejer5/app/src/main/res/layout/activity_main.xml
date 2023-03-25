@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Ingrese los lados del triángulo:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lado1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:hint="Lado 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/lado2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lado1"
+        android:layout_marginTop="20dp"
+        android:hint="Lado 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/lado3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lado2"
+        android:layout_marginTop="20dp"
+        android:hint="Lado 3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lado3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Enviar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        android:id="@+id/tipoTriangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Tipo de triángulo:"
+        android:textSize="20sp" />
+
+</RelativeLayout>
